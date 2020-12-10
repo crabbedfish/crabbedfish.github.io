@@ -18,29 +18,37 @@
 <script> 
 $(document).ready(function(){
   $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
+    $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
   });
 });
 </script>
 <style> 
 #panel, #flip {
   padding: 5px;
+  font-size: 18px;
   text-align: center;
-  background-color: #C0C0C0;
-  border: solid 1px #c3c3c3;
+  background-color: #555;
+  color: silver;
+  border: solid 1px #666;
+  border-radius: 3px;
 }
 
 #panel {
   padding: 50px;
   display: none;
 }
-
+</style>
+</head>
+<body>
  
-<div id="flip"> Reviews</div>
-<div id="panel">Attack on Titan follows protagonist Eren Yeager in a world where humans live within the safety of 3 circular fifty-metre¹ high walls. Safe from the man-eating titans (deformed giants with human appearances normally between 3–15 metres tall) that kill humans mercilessly out of pleasure. Eren is forced into the world of nightmares when his outer-city, Shiganshina, and the outer ring wall (wall Maria) is shockingly breached by the unknown colossus Titan (60 metres tall) and the armoured titan. He is determined to eradicate titans and reclaim their land, accompanied by his adopted sister Mikasa Ackerman — charged to keep Eren safe — and his bestfriend Armin Arlert. Their journey together takes them down many dangerous and perilous paths, learning truths they wished were false. It’s a constant race between life and death, with many characters you meet not making it past an episode, and some you sit anxiously on the edge of your seat hoping they will.</div>
+<button id="stop">Stop sliding</button>
 
+<div id="flip">Reviews</div>
+<div id="panel"> Attack on Titan follows protagonist Eren Yeager in a world where humans live within the safety of 3 circular fifty-metre¹ high walls. Safe from the man-eating titans (deformed giants with human appearances normally between 3–15 metres tall) that kill humans mercilessly out of pleasure. Eren is forced into the world of nightmares when his outer-city, Shiganshina, and the outer ring wall (wall Maria) is shockingly breached by the unknown colossus Titan (60 metres tall) and the armoured titan. He is determined to eradicate titans and reclaim their land, accompanied by his adopted sister Mikasa Ackerman — charged to keep Eren safe — and his bestfriend Armin Arlert. Their journey together takes them down many dangerous and perilous paths, learning truths they wished were false. It’s a constant race between life and death, with many characters you meet not making it past an episode, and some you sit anxiously on the edge of your seat hoping they will.</div>
 
-<script src=
   
   <TABLE BORDER="1" WIDTH="30%">
 <TR> <TH>Attack on Titan</TH> <TH>Erased</TH> <TH>Fire Force</TH> <TH>Vinland Saga</TH> </TR>
